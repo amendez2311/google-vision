@@ -1,9 +1,7 @@
 package com.upc.ia.controller;
 
-import javax.servlet.http.HttpServletRequest;
 import javax.validation.Valid;
 
-import com.google.cloud.vision.v1.AnnotateImageResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -16,7 +14,6 @@ import com.upc.ia.repository.CarPlateRepository;
 import com.upc.ia.service.GoogleVisionService;
 
 import java.util.Base64;
-import java.util.List;
 import java.util.UUID;
 
 @Controller
